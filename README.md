@@ -45,7 +45,7 @@ Make sure you have the following installed:
 
 - Required dependencies (see below)
 
-#### Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/real-time-ai-stock-advisor.git
 cd real-time-ai-stock-advisor
@@ -58,15 +58,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-
-### API Integration
-This application integrates with the DeepSeek AI model via a local API endpoint:
-```bash
-curl -X POST http://localhost:11434/api/generate \
-     -H "Content-Type: application/json" \
-     -d '{"model": "deepseek-r1:1.5b", "prompt": "How are you today?", "stream": false}'
-```
-Ensure that the DeepSeek model is running locally before launching the app.
 
 ## Usage
 
@@ -87,19 +78,19 @@ Ensure that the DeepSeek model is running locally before launching the app.
 
 ## Technologies Used
 
-Frontend: Streamlit
+1. Frontend: Streamlit
 
-Data Processing: Pandas, NumPy, yFinance
+2. Data Processing: Pandas, NumPy, yFinance
 
-Visualization: Plotly
+3. Visualization: Plotly
 
-AI Model: DeepSeek R1:1.5B Model
+4. AI Model: DeepSeek R1:1.5B Model
 
-Backend: Python, Requests
+5. Backend: Python, Requests
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
 
