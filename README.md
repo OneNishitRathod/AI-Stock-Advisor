@@ -48,12 +48,22 @@ Make sure you have the following installed:
 ### Clone the Repository
 ```bash
 git clone https://github.com/yourusername/real-time-ai-stock-advisor.git
-cd real-time-ai-stock-advisor
+cd ai-stock-advisor
 ```
+
+### Install Ollama and Pull the deepseek-r1:8b model
+  ```bash
+  Navigate to https://ollama.com/
+  ollama --version
+  ollama pull deepseek-r1:8b
+  ```
+Note: If you prefer using WSL (Windows Subsystem for Linux), you can install Ollama using the shell script as described on their website.
+
 ### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+
 ### Start the Application
 ```bash
 streamlit run app.py
