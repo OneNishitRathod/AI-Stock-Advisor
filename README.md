@@ -55,7 +55,7 @@ cd ai-stock-advisor
   ```bash
   Navigate to https://ollama.com/
   ollama --version
-  ollama pull deepseek-r1:8b
+  ollama pull deepseek-r1:1.5b
   ```
 Note: If you prefer using WSL (Windows Subsystem for Linux), you can install Ollama using the shell script as described on their website.
 
