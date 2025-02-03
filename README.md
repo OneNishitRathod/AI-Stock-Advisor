@@ -37,7 +37,7 @@ The Real-Time AI Stock Advisor is a Streamlit-based web application that provide
 
 Make sure you have the following installed:
 
-- Python 3.12.18
+- Python 3.12.8
 
 - pip (Python package manager)
 
